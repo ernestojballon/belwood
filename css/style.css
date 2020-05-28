@@ -1,0 +1,189 @@
+.navbar {
+  box-shadow: 1px 1px 1px 2.5px #032878;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .navbar-item {
+    font-size: 1.1rem;
+    padding-right: 1.4rem; }
+
+#myCarousel {
+  padding-top: 80px; }
+
+.mensaje {
+  margin: auto;
+  padding: 2rem;
+  border: 1px #032878 solid;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  height: 100px;
+  font-size: 18px; }
+
+#showcase .lead {
+  display: none; }
+
+#showcase .carousel-caption {
+  width: 100%;
+  left: 0;
+  border: 0;
+  border-radius: 0; }
+
+#showcase h1 {
+  font-size: 25px; }
+
+.carousel-item {
+  height: 400px; }
+
+.carousel-image-1 {
+  background: url("../img/slider4.png");
+  background-size: cover; }
+
+.carousel-image-2 {
+  background: url("../img/slider1.jpg");
+  background-size: cover; }
+
+.carousel-image-3 {
+  background: url("../img/slider2.jpg");
+  background-size: cover; }
+
+@media (min-width: 676px) {
+  .mensaje {
+    padding-top: 25px;
+    border: 2px #032878 solid;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    height: 100px;
+    width: 80%; }
+
+  #showcase h1 {
+    font-size: 35px; }
+
+  #showcase .carousel-caption {
+    width: 100%;
+    left: 0%;
+    border: 1px #032878 solid;
+    bottom: 100px; } }
+@media (min-width: 992px) {
+  .mensaje {
+    width: auto;
+    height: 50%;
+    bottom: 12.5%; }
+
+  #showcase h1 {
+    font-size: 45px; }
+
+  #showcase .display-3 {
+    margin-bottom: 2rem; }
+
+  #showcase .carousel-caption {
+    width: 80%;
+    height: 250px;
+    left: 10%;
+    bottom: 40px;
+    border-radius: 25px; }
+
+  #showcase .lead {
+    display: block; } }
+@media (min-width: 1200px) {
+  #showcase .carousel-caption {
+    margin: 0;
+    width: 60%;
+    height: 270px;
+    left: 20%;
+    bottom: 40px; }
+
+  #showcase .display-3 {
+    margin-bottom: 1rem; }
+
+  #showcase h1 {
+    font-size: 4rem; }
+
+  .carousel-item {
+    height: 450px; } }
+#about-section .card {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  border-radius: 2rem; }
+
+@media (min-width: 1200px) {
+  #about-section .card {
+    font-size: 20px;
+    margin-top: 60px; } }
+#mission-section .lead {
+  font-size: 25px;
+  font-weight: 1rem; }
+
+#home-section {
+  background: url(../img/smellgood.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px; }
+
+#home-section .dark-overlay {
+  padding-top: 5rem;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.6); }
+
+#home-section .fas {
+  color: #032878;
+  background: #ddd;
+  padding: 5px;
+  border-radius: 5px; }
+
+@media (min-width: 576px) {
+  .check {
+    font-size: 18px; } }
+@media (min-width: 992px) {
+  #home-section .home-inner .col-lg-9 {
+    padding-top: 3rem; }
+
+  .display-4 {
+    margin-bottom: 5rem; } }
+#products span {
+  color: #032878; }
+
+#products .card-title {
+  color: #032878; }
+
+#process img {
+  width: 50%;
+  border: solid black 1px;
+  margin-top: -30%; }
+
+#process .card {
+  background: white;
+  margin-top: 5rem;
+  min-width: 400px;
+  border-radius: 2rem;
+  padding: 1rem; }
+
+#process .card-text {
+  font-size: 1.5rem; }
+
+@media (min-width: 768px) {
+  #process .col-xl-3 {
+    margin-top: 15%; } }
+@media (min-width: 992px) {
+  #process .col-xl-3 {
+    margin-top: 10%; }
+
+  #process .card {
+    height: 350px; } }
+@media (min-width: 992px) {
+  #process .col-xl-3 {
+    margin-top: 0; }
+
+  #process .card {
+    min-width: 270px; }
+
+  #process .card-text {
+    font-size: 1.3rem; } }
+@media (max-width: 768px) {
+  #main-nav h3 {
+    font-size: 22px; }
+
+  #process .card {
+    min-width: 0; } }
+@media (max-width: 430px) {
+  #main-nav h3 {
+    font-size: 0px; } }
